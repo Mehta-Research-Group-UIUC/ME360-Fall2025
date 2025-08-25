@@ -2,35 +2,7 @@
 
 This guide provides instructions on how to set up Python and run Python files using two methods: locally on your computer and using Google Colab.
 
-## Option 1: Running Python Locally
-
-### Step 1: Install Python
-
-1. Visit the official Python website: https://www.python.org/downloads/
-2. Download the latest version of Python for your operating system (Windows, macOS, or Linux).
-3. Run the installer and follow the installation wizard. Make sure to check the box that says "Add Python to PATH" during installation.
-
-### Step 2: Verify Installation
-
-1. Open a command prompt (Windows) or terminal (macOS/Linux).
-2. Type `python --version` and press Enter. You should see the Python version number.
-
-### Step 3: Install Required Packages
-
-1. In the command prompt or terminal, use pip (Python's package manager) to install necessary packages:
-   ```
-   pip install numpy matplotlib pandas
-   ```
-
-### Step 4: Run Python Files
-
-1. Navigate to the directory containing your Python file using the `cd` command.
-2. Run the file using:
-   ```
-   python your_file_name.py
-   ```
-
-## Option 2: Using Google Colab
+## Option 1: Using Google Colab
 
 Google Colab is a cloud-based platform that allows you to write and execute Python code in your browser.
 
@@ -66,6 +38,34 @@ Most common packages are pre-installed in Colab. If you need additional packages
 ```
 
 Run this in a code cell before using the package.
+
+## Option 2: Running Python Locally
+
+### Step 1: Install Python
+
+1. Visit the official Python website: https://www.python.org/downloads/
+2. Download the latest version of Python for your operating system (Windows, macOS, or Linux).
+3. Run the installer and follow the installation wizard. Make sure to check the box that says "Add Python to PATH" during installation.
+
+### Step 2: Verify Installation
+
+1. Open a command prompt (Windows) or terminal (macOS/Linux).
+2. Type `python --version` and press Enter. You should see the Python version number.
+
+### Step 3: Install Required Packages
+
+1. In the command prompt or terminal, use pip (Python's package manager) to install necessary packages:
+   ```
+   pip install numpy matplotlib pandas
+   ```
+
+### Step 4: Run Python Files
+
+1. Navigate to the directory containing your Python file using the `cd` command.
+2. Run the file using:
+   ```
+   python your_file_name.py
+   ```
 
 ## Additional Resources
 
